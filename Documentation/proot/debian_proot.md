@@ -113,7 +113,7 @@ sudo apt install cinnamon -y
 * [[Video] How to install GNOME](https://www.youtube.com/watch?v=XedxyTTHYnI)
 ```
 # Commands: 
-proot-distro login debian --user droidmaster
+proot-distro login debian --user kaua10208 
 ```
 ```
 sudo apt install dbus-x11 nano gnome gnome-shell gnome-terminal gnome-tweaks gnome-software nautilus gnome-shell-extension-manager gedit tigervnc-tools gnupg2 -y
@@ -159,34 +159,12 @@ chmod +x startxfce4_debian.sh
 ## ⬇️ Download scripts easily: <a name=easy-download></a> 
 
 > [!NOTE]  
-> By default this script works with the user "droidmaster". If you create a user with a different name in proot-distro, please change where it says "droidmaster" inside the scripts.
+> By default this script works with the user "kaua10208". If you create a user with a different name in proot-distro, please change where it says "kaua10208" inside the scripts.
 
 * startgnome_debian.sh
 ```
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_debian/startgnome_debian.sh
+wget https://raw.githubusercontent.com/Skauako550/Termux-Desktops/blob/patch-1/scripts/proot_debian/startgnome_debian.sh
 ```
-
-* startxfce4_debian.sh
-```
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_debian/startxfce4_debian.sh
-```
-
-* startlxde_debian.sh
-```
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_debian/startlxde_debian.sh
-```
-
-* startcinnamon_debian.sh
-```
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_debian/startcinnamon_debian.sh
-```
-
-* startkde_debian.sh
-```
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_debian/startkde_debian.sh
-```
----  
-<br>
 
 ## 🎨 Customizations <a name=customizations></a>
 
